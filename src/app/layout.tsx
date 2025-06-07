@@ -6,7 +6,7 @@ import Navbar from './(components)/Navbar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'My Movie App',
+  title: 'Movie App',
   description: 'A simple app to log your favorite movies with Next.js and Tailwind CSS',
 };
 
