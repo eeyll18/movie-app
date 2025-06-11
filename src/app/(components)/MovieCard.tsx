@@ -4,9 +4,10 @@ import { Movie } from "../(lib)/types";
 
 interface MovieCardProps {
   movie: Movie;
+    priority?: boolean;
 }
 
-export default function MovieCard({ movie }: MovieCardProps) {
+export default function MovieCard({ movie,priority=false }: MovieCardProps) {
   return (
     <Link
       href={`/movies/${movie.id}`}
@@ -19,7 +20,7 @@ export default function MovieCard({ movie }: MovieCardProps) {
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 20vw"
           className="object-cover group-hover:scale-105 transition-transform duration-300"
-          // priority
+          priority={priority}
         />
       </div>
       <div className="p-4">
