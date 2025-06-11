@@ -65,8 +65,8 @@ Follow the steps below to run this project on your local machine.
 
 1.  **Clone the project:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_PROJECT_NAME.git
-    cd YOUR_PROJECT_NAME
+    git clone https://github.com/eeyll18/movie-app.git
+    cd movie-app
     ```
 
 2.  **Install dependencies:**
