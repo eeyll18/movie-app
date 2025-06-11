@@ -1,4 +1,4 @@
-# Next.js MovieApp Showcase
+# Next.js MovieApp
 
 This project is a simple movie listing application built with Next.js, TypeScript, and Tailwind CSS. Its primary goal is to practice using these technologies, fetch data from a MockAPI, present it in a clean interface, and utilize Next.js features such as the App Router, Server Components, Static Site Generation (SSG), and dynamic routing.
 
